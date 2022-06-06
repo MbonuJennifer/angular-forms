@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(255, 111, 145);
+  min-height: 100vh;
+  background: linear-gradient(
+    232deg,
+    rgba(255, 111, 145, 1) 0%,
+    rgba(255, 150, 113, 1) 35%,
+    rgba(255, 199, 95, 1) 100%
+  );
+  font-family: "Raleway", sans-serif;
+  /* background: linear-gradient(135deg, #FFC75F, #FF9671, #FF6F91, #D65DB1); */
+}
+h4 {
+  color: #9c9a9a;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  /* color: #aba9a9; */
+}
+
+.custom-invalid-feedback {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #fc3939;
+  text-shadow: 0 0 black;
+}
+
+h1 {
+  font-weight: 700;
+}
